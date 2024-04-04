@@ -1,0 +1,2031 @@
+No.     Time           Source                Destination           Protocol Length Info
+     29 0.927570       192.168.1.23          46.105.132.156        TCP      74     37584 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=393377709 TSecr=0 WS=128
+
+Frame 29: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 0.943345       46.105.132.156        192.168.1.23          TCP      74     443 → 37584 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1452 SACK_PERM TSval=2246053703 TSecr=393377709 WS=128
+
+Frame 31: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 0.943366       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=393377725 TSecr=2246053703
+
+Frame 32: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 0.943586       192.168.1.23          46.105.132.156        TCP      1506   37584 → 443 [ACK] Seq=1 Ack=1 Win=64256 Len=1440 TSval=393377725 TSecr=2246053703 [TCP segment of a reassembled PDU]
+
+Frame 33: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 1, Ack: 1, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 0.943587       192.168.1.23          46.105.132.156        TLSv1.3  417    Client Hello (SNI=drive.shadow.tech)
+
+Frame 34: 417 bytes on wire (3336 bits), 417 bytes captured (3336 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 1441, Ack: 1, Len: 351
+[2 Reassembled TCP Segments (1791 bytes): #33(1440), #34(351)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 0.961678       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=1 Ack=1792 Win=64128 Len=0 TSval=2246053721 TSecr=393377725
+
+Frame 57: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 1, Ack: 1792, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 0.962561       46.105.132.156        192.168.1.23          TLSv1.3  1506   Server Hello, Change Cipher Spec, Application Data
+
+Frame 58: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 1, Ack: 1792, Len: 1440
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 0.962574       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=1792 Ack=1441 Win=64128 Len=0 TSval=393377744 TSecr=2246053721
+
+Frame 59: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 1792, Ack: 1441, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 0.963069       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [PSH, ACK] Seq=1441 Ack=1792 Win=64128 Len=1440 TSval=2246053721 TSecr=393377725 [TCP segment of a reassembled PDU]
+
+Frame 60: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 1441, Ack: 1792, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 0.963075       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=1792 Ack=2881 Win=64128 Len=0 TSval=393377745 TSecr=2246053721
+
+Frame 61: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 1792, Ack: 2881, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 0.963152       46.105.132.156        192.168.1.23          TCP      1282   443 → 37584 [PSH, ACK] Seq=2881 Ack=1792 Win=64128 Len=1216 TSval=2246053721 TSecr=393377725 [TCP segment of a reassembled PDU]
+
+Frame 62: 1282 bytes on wire (10256 bits), 1282 bytes captured (10256 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 2881, Ack: 1792, Len: 1216
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 0.963154       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=1792 Ack=4097 Win=64128 Len=0 TSval=393377745 TSecr=2246053721
+
+Frame 63: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 1792, Ack: 4097, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 0.963255       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [ACK] Seq=4097 Ack=1792 Win=64128 Len=1440 TSval=2246053721 TSecr=393377725 [TCP segment of a reassembled PDU]
+
+Frame 64: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 4097, Ack: 1792, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 0.963258       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=1792 Ack=5537 Win=64128 Len=0 TSval=393377745 TSecr=2246053721
+
+Frame 65: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 1792, Ack: 5537, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 0.963827       46.105.132.156        192.168.1.23          TLSv1.3  1041   Application Data, Application Data, Application Data
+
+Frame 66: 1041 bytes on wire (8328 bits), 1041 bytes captured (8328 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 5537, Ack: 1792, Len: 975
+[5 Reassembled TCP Segments (5993 bytes): #58(1266), #60(1440), #62(1216), #64(1440), #66(631)]
+Transport Layer Security
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 0.963831       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=1792 Ack=6512 Win=64128 Len=0 TSval=393377746 TSecr=2246053721
+
+Frame 67: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 1792, Ack: 6512, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 0.965554       192.168.1.23          46.105.132.156        TLSv1.3  130    Change Cipher Spec, Application Data
+
+Frame 68: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 1792, Ack: 6512, Len: 64
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 0.965690       192.168.1.23          46.105.132.156        TLSv1.3  158    Application Data
+
+Frame 69: 158 bytes on wire (1264 bits), 158 bytes captured (1264 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 1856, Ack: 6512, Len: 92
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 0.965823       192.168.1.23          46.105.132.156        TCP      1506   37584 → 443 [ACK] Seq=1948 Ack=6512 Win=64128 Len=1440 TSval=393377748 TSecr=2246053721 [TCP segment of a reassembled PDU]
+
+Frame 70: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 1948, Ack: 6512, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 0.965825       192.168.1.23          46.105.132.156        TLSv1.3  560    Application Data
+
+Frame 71: 560 bytes on wire (4480 bits), 560 bytes captured (4480 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 3388, Ack: 6512, Len: 494
+[2 Reassembled TCP Segments (1934 bytes): #70(1440), #71(494)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 0.979072       46.105.132.156        192.168.1.23          TLSv1.3  145    Application Data
+
+Frame 80: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 6512, Ack: 1856, Len: 79
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 0.979261       46.105.132.156        192.168.1.23          TLSv1.3  145    Application Data
+
+Frame 81: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 6591, Ack: 1856, Len: 79
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 0.979273       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=3882 Ack=6670 Win=64128 Len=0 TSval=393377761 TSecr=2246053739
+
+Frame 82: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 3882, Ack: 6670, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 0.983748       46.105.132.156        192.168.1.23          TLSv1.3  130    Application Data
+
+Frame 83: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 6670, Ack: 1948, Len: 64
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 0.983821       192.168.1.23          46.105.132.156        TLSv1.3  97     Application Data
+
+Frame 84: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 3882, Ack: 6734, Len: 31
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 0.987709       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=6734 Ack=3882 Win=64128 Len=0 TSval=2246053742 TSecr=393377748
+
+Frame 86: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 6734, Ack: 3882, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 1.024286       46.105.132.156        192.168.1.23          TLSv1.3  1248   Application Data
+
+Frame 95: 1248 bytes on wire (9984 bits), 1248 bytes captured (9984 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 6734, Ack: 3913, Len: 1182
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 1.026871       192.168.1.23          46.105.132.156        TLSv1.3  297    Application Data
+
+Frame 96: 297 bytes on wire (2376 bits), 297 bytes captured (2376 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 3913, Ack: 7916, Len: 231
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 1.078824       46.105.132.156        192.168.1.23          TLSv1.3  1014   Application Data
+
+Frame 107: 1014 bytes on wire (8112 bits), 1014 bytes captured (8112 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 7916, Ack: 4144, Len: 948
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 1.081555       192.168.1.23          46.105.132.156        TLSv1.3  154    Application Data
+
+Frame 108: 154 bytes on wire (1232 bits), 154 bytes captured (1232 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4144, Ack: 8864, Len: 88
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 1.143141       46.105.132.156        192.168.1.23          TLSv1.3  1298   Application Data
+
+Frame 145: 1298 bytes on wire (10384 bits), 1298 bytes captured (10384 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 8864, Ack: 4232, Len: 1232
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+    171 1.187821       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=4232 Ack=10096 Win=64128 Len=0 TSval=393377970 TSecr=2246053902
+
+Frame 171: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4232, Ack: 10096, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1125 4.856421       192.168.1.23          46.105.132.156        TLSv1.3  428    Application Data
+
+Frame 1125: 428 bytes on wire (3424 bits), 428 bytes captured (3424 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4232, Ack: 10096, Len: 362
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1131 4.915687       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=10096 Ack=4594 Win=64128 Len=0 TSval=2246057673 TSecr=393381638
+
+Frame 1131: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 10096, Ack: 4594, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1132 5.347076       46.105.132.156        192.168.1.23          TLSv1.3  947    Application Data
+
+Frame 1132: 947 bytes on wire (7576 bits), 947 bytes captured (7576 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 10096, Ack: 4594, Len: 881
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1133 5.347117       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=4594 Ack=10977 Win=64128 Len=0 TSval=393382129 TSecr=2246058101
+
+Frame 1133: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4594, Ack: 10977, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1134 5.352125       192.168.1.23          46.105.132.156        TLSv1.3  167    Application Data
+
+Frame 1134: 167 bytes on wire (1336 bits), 167 bytes captured (1336 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4594, Ack: 10977, Len: 101
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1135 5.389563       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=10977 Ack=4695 Win=64128 Len=0 TSval=2246058125 TSecr=393382134
+
+Frame 1135: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 10977, Ack: 4695, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1136 5.430538       46.105.132.156        192.168.1.23          TLSv1.3  922    Application Data
+
+Frame 1136: 922 bytes on wire (7376 bits), 922 bytes captured (7376 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 10977, Ack: 4695, Len: 856
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1137 5.436426       192.168.1.23          46.105.132.156        TLSv1.3  262    Application Data
+
+Frame 1137: 262 bytes on wire (2096 bits), 262 bytes captured (2096 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4695, Ack: 11833, Len: 196
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1139 5.450783       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=11833 Ack=4891 Win=64128 Len=0 TSval=2246058210 TSecr=393382218
+
+Frame 1139: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 11833, Ack: 4891, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1143 5.570215       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [ACK] Seq=11833 Ack=4891 Win=64128 Len=1440 TSval=2246058329 TSecr=393382218 [TCP segment of a reassembled PDU]
+
+Frame 1143: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 11833, Ack: 4891, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1144 5.570779       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [PSH, ACK] Seq=13273 Ack=4891 Win=64128 Len=1440 TSval=2246058329 TSecr=393382218 [TCP segment of a reassembled PDU]
+
+Frame 1144: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 13273, Ack: 4891, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1145 5.570801       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=4891 Ack=14713 Win=64128 Len=0 TSval=393382353 TSecr=2246058329
+
+Frame 1145: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4891, Ack: 14713, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1146 5.571007       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [ACK] Seq=14713 Ack=4891 Win=64128 Len=1440 TSval=2246058329 TSecr=393382218 [TCP segment of a reassembled PDU]
+
+Frame 1146: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 14713, Ack: 4891, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1147 5.571568       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [PSH, ACK] Seq=16153 Ack=4891 Win=64128 Len=1440 TSval=2246058329 TSecr=393382218 [TCP segment of a reassembled PDU]
+
+Frame 1147: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 16153, Ack: 4891, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1148 5.571582       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=4891 Ack=17593 Win=64128 Len=0 TSval=393382353 TSecr=2246058329
+
+Frame 1148: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4891, Ack: 17593, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1149 5.572183       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [ACK] Seq=17593 Ack=4891 Win=64128 Len=1440 TSval=2246058329 TSecr=393382218 [TCP segment of a reassembled PDU]
+
+Frame 1149: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 17593, Ack: 4891, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1150 5.572545       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [PSH, ACK] Seq=19033 Ack=4891 Win=64128 Len=1440 TSval=2246058329 TSecr=393382218 [TCP segment of a reassembled PDU]
+
+Frame 1150: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 19033, Ack: 4891, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1151 5.572560       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=4891 Ack=20473 Win=64128 Len=0 TSval=393382354 TSecr=2246058329
+
+Frame 1151: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4891, Ack: 20473, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1152 5.574421       46.105.132.156        192.168.1.23          TCP      2946   443 → 37584 [PSH, ACK] Seq=20473 Ack=4891 Win=64128 Len=2880 TSval=2246058329 TSecr=393382218 [TCP segment of a reassembled PDU]
+
+Frame 1152: 2946 bytes on wire (23568 bits), 2946 bytes captured (23568 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 20473, Ack: 4891, Len: 2880
+
+No.     Time           Source                Destination           Protocol Length Info
+   1153 5.574487       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=4891 Ack=23353 Win=64128 Len=0 TSval=393382356 TSecr=2246058329
+
+Frame 1153: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4891, Ack: 23353, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1154 5.575936       46.105.132.156        192.168.1.23          TCP      2946   443 → 37584 [PSH, ACK] Seq=23353 Ack=4891 Win=64128 Len=2880 TSval=2246058329 TSecr=393382218 [TCP segment of a reassembled PDU]
+
+Frame 1154: 2946 bytes on wire (23568 bits), 2946 bytes captured (23568 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 23353, Ack: 4891, Len: 2880
+
+No.     Time           Source                Destination           Protocol Length Info
+   1155 5.576027       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=4891 Ack=26233 Win=64128 Len=0 TSval=393382358 TSecr=2246058329
+
+Frame 1155: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4891, Ack: 26233, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1156 5.586660       46.105.132.156        192.168.1.23          TLSv1.3  1231   Application Data
+
+Frame 1156: 1231 bytes on wire (9848 bits), 1231 bytes captured (9848 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 26233, Ack: 4891, Len: 1165
+[9 Reassembled TCP Segments (15565 bytes): #1143(1440), #1144(1440), #1146(1440), #1147(1440), #1149(1440), #1150(1440), #1152(2880), #1154(2880), #1156(1165)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1163 5.631787       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=4891 Ack=27398 Win=64128 Len=0 TSval=393382414 TSecr=2246058344
+
+Frame 1163: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4891, Ack: 27398, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1193 6.151875       192.168.1.23          46.105.132.156        TLSv1.3  393    Application Data
+
+Frame 1193: 393 bytes on wire (3144 bits), 393 bytes captured (3144 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 4891, Ack: 27398, Len: 327
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1194 6.168785       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=27398 Ack=5218 Win=64128 Len=0 TSval=2246058928 TSecr=393382934
+
+Frame 1194: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 27398, Ack: 5218, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1195 6.231706       46.105.132.156        192.168.1.23          TLSv1.3  1103   Application Data
+
+Frame 1195: 1103 bytes on wire (8824 bits), 1103 bytes captured (8824 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 27398, Ack: 5218, Len: 1037
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1196 6.231725       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=5218 Ack=28435 Win=64128 Len=0 TSval=393383013 TSecr=2246058991
+
+Frame 1196: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 5218, Ack: 28435, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1197 6.232749       192.168.1.23          46.105.132.156        TLSv1.3  101    Application Data
+
+Frame 1197: 101 bytes on wire (808 bits), 101 bytes captured (808 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 5218, Ack: 28435, Len: 35
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1198 6.246486       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=28435 Ack=5253 Win=64128 Len=0 TSval=2246059006 TSecr=393383014
+
+Frame 1198: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 28435, Ack: 5253, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1199 6.768834       192.168.1.23          46.105.132.156        TCP      1506   37584 → 443 [ACK] Seq=5253 Ack=28435 Win=64128 Len=1440 TSval=393383551 TSecr=2246059006 [TCP segment of a reassembled PDU]
+
+Frame 1199: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 5253, Ack: 28435, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1200 6.768841       192.168.1.23          46.105.132.156        TLSv1.3  125    Application Data
+
+Frame 1200: 125 bytes on wire (1000 bits), 125 bytes captured (1000 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 6693, Ack: 28435, Len: 59
+[2 Reassembled TCP Segments (1499 bytes): #1199(1440), #1200(59)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1201 6.771947       192.168.1.23          46.105.132.156        TLSv1.3  167    Application Data
+
+Frame 1201: 167 bytes on wire (1336 bits), 167 bytes captured (1336 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 6752, Ack: 28435, Len: 101
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1202 6.772556       192.168.1.23          46.105.132.156        TLSv1.3  374    Application Data
+
+Frame 1202: 374 bytes on wire (2992 bits), 374 bytes captured (2992 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 6853, Ack: 28435, Len: 308
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1203 6.772580       192.168.1.23          46.105.132.156        TLSv1.3  801    Application Data
+
+Frame 1203: 801 bytes on wire (6408 bits), 801 bytes captured (6408 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 7161, Ack: 28435, Len: 735
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1204 6.787065       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=28435 Ack=6693 Win=64128 Len=0 TSval=2246059547 TSecr=393383551
+
+Frame 1204: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 28435, Ack: 6693, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1205 6.787448       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=28435 Ack=6752 Win=64128 Len=0 TSval=2246059547 TSecr=393383551
+
+Frame 1205: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 28435, Ack: 6752, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1206 6.787639       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=28435 Ack=6853 Win=64128 Len=0 TSval=2246059547 TSecr=393383554
+
+Frame 1206: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 28435, Ack: 6853, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1207 6.788008       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=28435 Ack=7161 Win=64128 Len=0 TSval=2246059548 TSecr=393383554
+
+Frame 1207: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 28435, Ack: 7161, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1208 6.788984       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=28435 Ack=7896 Win=64128 Len=0 TSval=2246059549 TSecr=393383554
+
+Frame 1208: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 28435, Ack: 7896, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1209 6.789267       46.105.132.156        192.168.1.23          TLSv1.3  114    Application Data
+
+Frame 1209: 114 bytes on wire (912 bits), 114 bytes captured (912 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 28435, Ack: 7896, Len: 48
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1210 6.803111       192.168.1.23          46.105.132.156        TLSv1.3  167    Application Data
+
+Frame 1210: 167 bytes on wire (1336 bits), 167 bytes captured (1336 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 7896, Ack: 28483, Len: 101
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1211 6.851103       46.105.132.156        192.168.1.23          TLSv1.3  919    Application Data
+
+Frame 1211: 919 bytes on wire (7352 bits), 919 bytes captured (7352 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 28483, Ack: 7997, Len: 853
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1212 6.852575       192.168.1.23          46.105.132.156        TLSv1.3  173    Application Data
+
+Frame 1212: 173 bytes on wire (1384 bits), 173 bytes captured (1384 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 7997, Ack: 29336, Len: 107
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1213 6.858447       46.105.132.156        192.168.1.23          TLSv1.3  960    Application Data
+
+Frame 1213: 960 bytes on wire (7680 bits), 960 bytes captured (7680 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 29336, Ack: 7997, Len: 894
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1214 6.899927       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=8104 Ack=30230 Win=64128 Len=0 TSval=393383682 TSecr=2246059614
+
+Frame 1214: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 8104, Ack: 30230, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1215 6.913344       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=30230 Ack=8104 Win=64128 Len=0 TSval=2246059673 TSecr=393383634
+
+Frame 1215: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 30230, Ack: 8104, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1216 6.915776       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [ACK] Seq=30230 Ack=8104 Win=64128 Len=1440 TSval=2246059675 TSecr=393383682 [TCP segment of a reassembled PDU]
+
+Frame 1216: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 30230, Ack: 8104, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1217 6.915787       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=8104 Ack=31670 Win=64128 Len=0 TSval=393383698 TSecr=2246059675
+
+Frame 1217: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 8104, Ack: 31670, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1218 6.916350       46.105.132.156        192.168.1.23          TLSv1.3  442    Application Data
+
+Frame 1218: 442 bytes on wire (3536 bits), 442 bytes captured (3536 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 31670, Ack: 8104, Len: 376
+[2 Reassembled TCP Segments (1816 bytes): #1216(1440), #1218(376)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1219 6.916358       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=8104 Ack=32046 Win=67072 Len=0 TSval=393383698 TSecr=2246059675
+
+Frame 1219: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 8104, Ack: 32046, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1220 6.921571       192.168.1.23          46.105.132.156        TLSv1.3  353    Application Data
+
+Frame 1220: 353 bytes on wire (2824 bits), 353 bytes captured (2824 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 8104, Ack: 32046, Len: 287
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1221 6.931936       46.105.132.156        192.168.1.23          TLSv1.3  965    Application Data
+
+Frame 1221: 965 bytes on wire (7720 bits), 965 bytes captured (7720 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 32046, Ack: 8104, Len: 899
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1222 6.939293       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=32945 Ack=8391 Win=64128 Len=0 TSval=2246059699 TSecr=393383703
+
+Frame 1222: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 32945, Ack: 8391, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1223 6.971109       46.105.132.156        192.168.1.23          TLSv1.3  1424   Application Data
+
+Frame 1223: 1424 bytes on wire (11392 bits), 1424 bytes captured (11392 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 32945, Ack: 8391, Len: 1358
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1224 6.971127       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=8391 Ack=34303 Win=72832 Len=0 TSval=393383753 TSecr=2246059691
+
+Frame 1224: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 8391, Ack: 34303, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1225 7.005582       46.105.132.156        192.168.1.23          TLSv1.3  1021   Application Data
+
+Frame 1225: 1021 bytes on wire (8168 bits), 1021 bytes captured (8168 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 34303, Ack: 8391, Len: 955
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1226 7.047936       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=8391 Ack=35258 Win=75648 Len=0 TSval=393383830 TSecr=2246059765
+
+Frame 1226: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 8391, Ack: 35258, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1227 8.293458       192.168.1.23          46.105.132.156        TLSv1.3  322    Application Data
+
+Frame 1227: 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 8391, Ack: 35258, Len: 256
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1228 8.293488       192.168.1.23          46.105.132.156        TLSv1.3  339    Application Data, Application Data
+
+Frame 1228: 339 bytes on wire (2712 bits), 339 bytes captured (2712 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 8647, Ack: 35258, Len: 273
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1229 8.310879       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=35258 Ack=8920 Win=64128 Len=0 TSval=2246061071 TSecr=393385075
+
+Frame 1229: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 35258, Ack: 8920, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1230 8.371882       46.105.132.156        192.168.1.23          TLSv1.3  1042   Application Data
+
+Frame 1230: 1042 bytes on wire (8336 bits), 1042 bytes captured (8336 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 35258, Ack: 8920, Len: 976
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1231 8.371902       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=8920 Ack=36234 Win=78592 Len=0 TSval=393385154 TSecr=2246061131
+
+Frame 1231: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 8920, Ack: 36234, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1232 8.428396       46.105.132.156        192.168.1.23          TLSv1.3  1438   Application Data
+
+Frame 1232: 1438 bytes on wire (11504 bits), 1438 bytes captured (11504 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 36234, Ack: 8920, Len: 1372
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1233 8.428415       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=8920 Ack=37606 Win=81408 Len=0 TSval=393385210 TSecr=2246061186
+
+Frame 1233: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 8920, Ack: 37606, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1234 8.431604       46.105.132.156        192.168.1.23          TLSv1.3  1522   Application Data
+
+Frame 1234: 1522 bytes on wire (12176 bits), 1522 bytes captured (12176 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 37606, Ack: 8920, Len: 1456
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1235 8.431618       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=8920 Ack=39062 Win=84352 Len=0 TSval=393385213 TSecr=2246061187
+
+Frame 1235: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 8920, Ack: 39062, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1237 8.871826       192.168.1.23          46.105.132.156        TLSv1.3  349    Application Data
+
+Frame 1237: 349 bytes on wire (2792 bits), 349 bytes captured (2792 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 8920, Ack: 39062, Len: 283
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1272 8.942902       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [ACK] Seq=39062 Ack=9203 Win=64128 Len=0 TSval=2246061689 TSecr=393385654
+
+Frame 1272: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 39062, Ack: 9203, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1301 8.970029       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [ACK] Seq=39062 Ack=9203 Win=64128 Len=1440 TSval=2246061714 TSecr=393385654 [TCP segment of a reassembled PDU]
+
+Frame 1301: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 39062, Ack: 9203, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1302 8.970042       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=9203 Ack=40502 Win=87296 Len=0 TSval=393385752 TSecr=2246061714
+
+Frame 1302: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 9203, Ack: 40502, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1303 8.970060       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [PSH, ACK] Seq=40502 Ack=9203 Win=64128 Len=1440 TSval=2246061714 TSecr=393385654 [TCP segment of a reassembled PDU]
+
+Frame 1303: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 40502, Ack: 9203, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1304 8.970062       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=9203 Ack=41942 Win=90112 Len=0 TSval=393385752 TSecr=2246061714
+
+Frame 1304: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 9203, Ack: 41942, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1305 8.970147       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [ACK] Seq=41942 Ack=9203 Win=64128 Len=1440 TSval=2246061714 TSecr=393385654 [TCP segment of a reassembled PDU]
+
+Frame 1305: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 41942, Ack: 9203, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1306 8.970148       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=9203 Ack=43382 Win=93056 Len=0 TSval=393385752 TSecr=2246061714
+
+Frame 1306: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 9203, Ack: 43382, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1307 8.970250       46.105.132.156        192.168.1.23          TCP      1506   443 → 37584 [PSH, ACK] Seq=43382 Ack=9203 Win=64128 Len=1440 TSval=2246061714 TSecr=393385654 [TCP segment of a reassembled PDU]
+
+Frame 1307: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 43382, Ack: 9203, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1308 8.970252       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=9203 Ack=44822 Win=96000 Len=0 TSval=393385752 TSecr=2246061714
+
+Frame 1308: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 9203, Ack: 44822, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1309 8.970305       46.105.132.156        192.168.1.23          TLSv1.3  863    Application Data
+
+Frame 1309: 863 bytes on wire (6904 bits), 863 bytes captured (6904 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 44822, Ack: 9203, Len: 797
+[5 Reassembled TCP Segments (6557 bytes): #1301(1440), #1303(1440), #1305(1440), #1307(1440), #1309(797)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1310 8.970306       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [ACK] Seq=9203 Ack=45619 Win=98816 Len=0 TSval=393385752 TSecr=2246061714
+
+Frame 1310: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 9203, Ack: 45619, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1311 8.971176       192.168.1.23          46.105.132.156        TCP      66     37584 → 443 [FIN, ACK] Seq=9203 Ack=45619 Win=98816 Len=0 TSval=393385753 TSecr=2246061714
+
+Frame 1311: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 9203, Ack: 45619, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1331 8.998156       46.105.132.156        192.168.1.23          TLSv1.3  90     Application Data
+
+Frame 1331: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 45619, Ack: 9204, Len: 24
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1333 8.998163       46.105.132.156        192.168.1.23          TCP      66     443 → 37584 [FIN, ACK] Seq=45643 Ack=9204 Win=64128 Len=0 TSval=2246061748 TSecr=393385753
+
+Frame 1333: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 37584, Seq: 45643, Ack: 9204, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1335 8.998180       192.168.1.23          46.105.132.156        TCP      54     37584 → 443 [RST] Seq=9204 Win=0 Len=0
+
+Frame 1335: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 9204, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1336 8.998185       192.168.1.23          46.105.132.156        TCP      54     37584 → 443 [RST] Seq=9204 Win=0 Len=0
+
+Frame 1336: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 37584, Dst Port: 443, Seq: 9204, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1361 10.667873      192.168.1.23          46.105.132.156        TCP      74     42586 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=393387450 TSecr=0 WS=128
+
+Frame 1361: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1380 10.683441      46.105.132.156        192.168.1.23          TCP      74     443 → 42586 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1452 SACK_PERM TSval=2246063442 TSecr=393387450 WS=128
+
+Frame 1380: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1381 10.683469      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=393387465 TSecr=2246063442
+
+Frame 1381: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1382 10.683758      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [ACK] Seq=1 Ack=1 Win=64256 Len=1440 TSval=393387465 TSecr=2246063442 [TCP segment of a reassembled PDU]
+
+Frame 1382: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 1, Ack: 1, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1383 10.683760      192.168.1.23          46.105.132.156        TLSv1.3  464    Client Hello (SNI=drive.shadow.tech)
+
+Frame 1383: 464 bytes on wire (3712 bits), 464 bytes captured (3712 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 1441, Ack: 1, Len: 398
+[2 Reassembled TCP Segments (1838 bytes): #1382(1440), #1383(398)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1396 10.702669      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=1 Ack=1839 Win=64128 Len=0 TSval=2246063462 TSecr=393387465
+
+Frame 1396: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 1, Ack: 1839, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1397 10.702923      46.105.132.156        192.168.1.23          TLSv1.3  304    Server Hello, Change Cipher Spec, Application Data, Application Data
+
+Frame 1397: 304 bytes on wire (2432 bits), 304 bytes captured (2432 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 1, Ack: 1839, Len: 238
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1398 10.702930      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=1839 Ack=239 Win=64128 Len=0 TSval=393387485 TSecr=2246063462
+
+Frame 1398: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 1839, Ack: 239, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1399 10.704711      192.168.1.23          46.105.132.156        TLSv1.3  130    Change Cipher Spec, Application Data
+
+Frame 1399: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 1839, Ack: 239, Len: 64
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1400 10.704822      192.168.1.23          46.105.132.156        TLSv1.3  158    Application Data
+
+Frame 1400: 158 bytes on wire (1264 bits), 158 bytes captured (1264 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 1903, Ack: 239, Len: 92
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1401 10.704951      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [ACK] Seq=1995 Ack=239 Win=64128 Len=1440 TSval=393387487 TSecr=2246063462 [TCP segment of a reassembled PDU]
+
+Frame 1401: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 1995, Ack: 239, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1402 10.704952      192.168.1.23          46.105.132.156        TLSv1.3  800    Application Data
+
+Frame 1402: 800 bytes on wire (6400 bits), 800 bytes captured (6400 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 3435, Ack: 239, Len: 734
+[2 Reassembled TCP Segments (2174 bytes): #1401(1440), #1402(734)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1403 10.705255      192.168.1.23          46.105.132.156        TLSv1.3  931    Application Data, Application Data
+
+Frame 1403: 931 bytes on wire (7448 bits), 931 bytes captured (7448 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 4169, Ack: 239, Len: 865
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1420 10.719007      46.105.132.156        192.168.1.23          TLSv1.3  145    Application Data
+
+Frame 1420: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 239, Ack: 1903, Len: 79
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1421 10.719279      46.105.132.156        192.168.1.23          TLSv1.3  130    Application Data
+
+Frame 1421: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 318, Ack: 1995, Len: 64
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1422 10.719317      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=5034 Ack=382 Win=64128 Len=0 TSval=393387501 TSecr=2246063478
+
+Frame 1422: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5034, Ack: 382, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1423 10.719370      192.168.1.23          46.105.132.156        TLSv1.3  97     Application Data
+
+Frame 1423: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5034, Ack: 382, Len: 31
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1424 10.721869      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=382 Ack=4169 Win=64128 Len=0 TSval=2246063482 TSecr=393387487
+
+Frame 1424: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 382, Ack: 4169, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1425 10.723096      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=382 Ack=5034 Win=64128 Len=0 TSval=2246063483 TSecr=393387487
+
+Frame 1425: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 382, Ack: 5034, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1426 10.723283      46.105.132.156        192.168.1.23          TLSv1.3  114    Application Data
+
+Frame 1426: 114 bytes on wire (912 bits), 114 bytes captured (912 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 382, Ack: 5034, Len: 48
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1466 10.763799      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=5065 Ack=430 Win=64128 Len=0 TSval=393387546 TSecr=2246063483
+
+Frame 1466: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5065, Ack: 430, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1468 10.778037      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=430 Ack=5065 Win=64128 Len=0 TSval=2246063537 TSecr=393387501
+
+Frame 1468: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 430, Ack: 5065, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1496 10.840633      46.105.132.156        192.168.1.23          TLSv1.3  1074   Application Data
+
+Frame 1496: 1074 bytes on wire (8592 bits), 1074 bytes captured (8592 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 430, Ack: 5065, Len: 1008
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1497 10.840647      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=5065 Ack=1438 Win=64128 Len=0 TSval=393387622 TSecr=2246063599
+
+Frame 1497: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5065, Ack: 1438, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1500 10.853587      46.105.132.156        192.168.1.23          TCP      1506   443 → 42586 [ACK] Seq=1438 Ack=5065 Win=64128 Len=1440 TSval=2246063612 TSecr=393387546 [TCP segment of a reassembled PDU]
+
+Frame 1500: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 1438, Ack: 5065, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1501 10.853599      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=5065 Ack=2878 Win=64128 Len=0 TSval=393387635 TSecr=2246063612
+
+Frame 1501: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5065, Ack: 2878, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1502 10.853614      46.105.132.156        192.168.1.23          TLSv1.3  374    Application Data
+
+Frame 1502: 374 bytes on wire (2992 bits), 374 bytes captured (2992 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 2878, Ack: 5065, Len: 308
+[2 Reassembled TCP Segments (1748 bytes): #1500(1440), #1502(308)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1503 10.853616      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=5065 Ack=3186 Win=63872 Len=0 TSval=393387635 TSecr=2246063612
+
+Frame 1503: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5065, Ack: 3186, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1517 10.857476      192.168.1.23          46.105.132.156        TLSv1.3  216    Application Data
+
+Frame 1517: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5065, Ack: 3186, Len: 150
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1519 10.872481      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=3186 Ack=5215 Win=64128 Len=0 TSval=2246063632 TSecr=393387639
+
+Frame 1519: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 3186, Ack: 5215, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1521 10.883266      192.168.1.23          46.105.132.156        TLSv1.3  262    Application Data
+
+Frame 1521: 262 bytes on wire (2096 bits), 262 bytes captured (2096 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5215, Ack: 3186, Len: 196
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1522 10.902261      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=3186 Ack=5411 Win=64128 Len=0 TSval=2246063660 TSecr=393387665
+
+Frame 1522: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 3186, Ack: 5411, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1524 10.958085      46.105.132.156        192.168.1.23          TLSv1.3  1025   Application Data
+
+Frame 1524: 1025 bytes on wire (8200 bits), 1025 bytes captured (8200 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 3186, Ack: 5411, Len: 959
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1525 10.999899      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=5411 Ack=4145 Win=64128 Len=0 TSval=393387782 TSecr=2246063709
+
+Frame 1525: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5411, Ack: 4145, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1535 12.207553      46.105.132.156        192.168.1.23          TCP      1506   443 → 42586 [ACK] Seq=4145 Ack=5411 Win=64128 Len=1440 TSval=2246064967 TSecr=393387782 [TCP segment of a reassembled PDU]
+
+Frame 1535: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 4145, Ack: 5411, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1536 12.207571      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=5411 Ack=5585 Win=64128 Len=0 TSval=393388989 TSecr=2246064967
+
+Frame 1536: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5411, Ack: 5585, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1537 12.212640      46.105.132.156        192.168.1.23          TLSv1.3  1087   Application Data
+
+Frame 1537: 1087 bytes on wire (8696 bits), 1087 bytes captured (8696 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 5585, Ack: 5411, Len: 1021
+[2 Reassembled TCP Segments (2461 bytes): #1535(1440), #1537(1021)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1538 12.212653      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=5411 Ack=6606 Win=64128 Len=0 TSval=393388994 TSecr=2246064967
+
+Frame 1538: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5411, Ack: 6606, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1543 16.009866      192.168.1.23          46.105.132.156        TLSv1.3  452    Application Data
+
+Frame 1543: 452 bytes on wire (3616 bits), 452 bytes captured (3616 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5411, Ack: 6606, Len: 386
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1544 16.027070      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=6606 Ack=5797 Win=64128 Len=0 TSval=2246068785 TSecr=393392792
+
+Frame 1544: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 6606, Ack: 5797, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1545 16.027346      46.105.132.156        192.168.1.23          TLSv1.3  915    Application Data
+
+Frame 1545: 915 bytes on wire (7320 bits), 915 bytes captured (7320 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 6606, Ack: 5797, Len: 849
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1546 16.027380      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=5797 Ack=7455 Win=64128 Len=0 TSval=393392809 TSecr=2246068786
+
+Frame 1546: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5797, Ack: 7455, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1547 16.029225      192.168.1.23          46.105.132.156        TLSv1.3  101    Application Data
+
+Frame 1547: 101 bytes on wire (808 bits), 101 bytes captured (808 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5797, Ack: 7455, Len: 35
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1548 16.064128      192.168.1.23          46.105.132.156        TLSv1.3  290    Application Data
+
+Frame 1548: 290 bytes on wire (2320 bits), 290 bytes captured (2320 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 5832, Ack: 7455, Len: 224
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1549 16.080134      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=7455 Ack=6056 Win=64128 Len=0 TSval=2246068840 TSecr=393392811
+
+Frame 1549: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 7455, Ack: 6056, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1550 16.237191      46.105.132.156        192.168.1.23          TCP      2946   443 → 42586 [PSH, ACK] Seq=7455 Ack=6056 Win=64128 Len=2880 TSval=2246068994 TSecr=393392811 [TCP segment of a reassembled PDU]
+
+Frame 1550: 2946 bytes on wire (23568 bits), 2946 bytes captured (23568 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 7455, Ack: 6056, Len: 2880
+
+No.     Time           Source                Destination           Protocol Length Info
+   1551 16.237192      46.105.132.156        192.168.1.23          TCP      2946   443 → 42586 [PSH, ACK] Seq=10335 Ack=6056 Win=64128 Len=2880 TSval=2246068994 TSecr=393392811 [TCP segment of a reassembled PDU]
+
+Frame 1551: 2946 bytes on wire (23568 bits), 2946 bytes captured (23568 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 10335, Ack: 6056, Len: 2880
+
+No.     Time           Source                Destination           Protocol Length Info
+   1552 16.237193      46.105.132.156        192.168.1.23          TCP      2946   443 → 42586 [PSH, ACK] Seq=13215 Ack=6056 Win=64128 Len=2880 TSval=2246068994 TSecr=393392811 [TCP segment of a reassembled PDU]
+
+Frame 1552: 2946 bytes on wire (23568 bits), 2946 bytes captured (23568 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 13215, Ack: 6056, Len: 2880
+
+No.     Time           Source                Destination           Protocol Length Info
+   1553 16.237194      46.105.132.156        192.168.1.23          TCP      1506   443 → 42586 [ACK] Seq=16095 Ack=6056 Win=64128 Len=1440 TSval=2246068994 TSecr=393392811 [TCP segment of a reassembled PDU]
+
+Frame 1553: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 16095, Ack: 6056, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1554 16.237353      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=6056 Ack=17535 Win=64128 Len=0 TSval=393393019 TSecr=2246068994
+
+Frame 1554: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 6056, Ack: 17535, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1555 16.237587      46.105.132.156        192.168.1.23          TCP      1506   443 → 42586 [PSH, ACK] Seq=17535 Ack=6056 Win=64128 Len=1440 TSval=2246068994 TSecr=393392811 [TCP segment of a reassembled PDU]
+
+Frame 1555: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 17535, Ack: 6056, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1556 16.238162      46.105.132.156        192.168.1.23          TCP      1506   443 → 42586 [ACK] Seq=18975 Ack=6056 Win=64128 Len=1440 TSval=2246068994 TSecr=393392811 [TCP segment of a reassembled PDU]
+
+Frame 1556: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 18975, Ack: 6056, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1557 16.238177      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=6056 Ack=20415 Win=64128 Len=0 TSval=393393020 TSecr=2246068994
+
+Frame 1557: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 6056, Ack: 20415, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1558 16.238465      46.105.132.156        192.168.1.23          TCP      1506   443 → 42586 [PSH, ACK] Seq=20415 Ack=6056 Win=64128 Len=1440 TSval=2246068994 TSecr=393392811 [TCP segment of a reassembled PDU]
+
+Frame 1558: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 20415, Ack: 6056, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1559 16.251860      46.105.132.156        192.168.1.23          TLSv1.3  1062   Application Data
+
+Frame 1559: 1062 bytes on wire (8496 bits), 1062 bytes captured (8496 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 21855, Ack: 6056, Len: 996
+[8 Reassembled TCP Segments (15396 bytes): #1550(2880), #1551(2880), #1552(2880), #1553(1440), #1555(1440), #1556(1440), #1558(1440), #1559(996)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1560 16.251895      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=6056 Ack=22851 Win=64128 Len=0 TSval=393393034 TSecr=2246068994
+
+Frame 1560: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 6056, Ack: 22851, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1565 17.977947      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [ACK] Seq=6056 Ack=22851 Win=64128 Len=1440 TSval=393394760 TSecr=2246068994 [TCP segment of a reassembled PDU]
+
+Frame 1565: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 6056, Ack: 22851, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1566 17.977953      192.168.1.23          46.105.132.156        TLSv1.3  423    Application Data
+
+Frame 1566: 423 bytes on wire (3384 bits), 423 bytes captured (3384 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 7496, Ack: 22851, Len: 357
+[2 Reassembled TCP Segments (1797 bytes): #1565(1440), #1566(357)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1567 17.999481      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=22851 Ack=7853 Win=64128 Len=0 TSval=2246070759 TSecr=393394760
+
+Frame 1567: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 22851, Ack: 7853, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1568 17.999891      46.105.132.156        192.168.1.23          TLSv1.3  521    Application Data
+
+Frame 1568: 521 bytes on wire (4168 bits), 521 bytes captured (4168 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 22851, Ack: 7853, Len: 455
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1569 18.043887      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=7853 Ack=23306 Win=64128 Len=0 TSval=393394826 TSecr=2246070759
+
+Frame 1569: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 7853, Ack: 23306, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1570 19.329112      192.168.1.23          46.105.132.156        TLSv1.3  371    Application Data
+
+Frame 1570: 371 bytes on wire (2968 bits), 371 bytes captured (2968 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 7853, Ack: 23306, Len: 305
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1571 19.329794      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [ACK] Seq=8158 Ack=23306 Win=64128 Len=1440 TSval=393396112 TSecr=2246070759 [TCP segment of a reassembled PDU]
+
+Frame 1571: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 8158, Ack: 23306, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1572 19.329800      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [ACK] Seq=9598 Ack=23306 Win=64128 Len=1440 TSval=393396112 TSecr=2246070759 [TCP segment of a reassembled PDU]
+
+Frame 1572: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 9598, Ack: 23306, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1573 19.329801      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [ACK] Seq=11038 Ack=23306 Win=64128 Len=1440 TSval=393396112 TSecr=2246070759 [TCP segment of a reassembled PDU]
+
+Frame 1573: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 11038, Ack: 23306, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1574 19.329802      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [ACK] Seq=12478 Ack=23306 Win=64128 Len=1440 TSval=393396112 TSecr=2246070759 [TCP segment of a reassembled PDU]
+
+Frame 1574: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 12478, Ack: 23306, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1575 19.329803      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [PSH, ACK] Seq=13918 Ack=23306 Win=64128 Len=1440 TSval=393396112 TSecr=2246070759 [TCP segment of a reassembled PDU]
+
+Frame 1575: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 13918, Ack: 23306, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1576 19.332767      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [ACK] Seq=15358 Ack=23306 Win=64128 Len=1440 TSval=393396114 TSecr=2246070759 [TCP segment of a reassembled PDU]
+
+Frame 1576: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 15358, Ack: 23306, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1577 19.332772      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [ACK] Seq=16798 Ack=23306 Win=64128 Len=1440 TSval=393396114 TSecr=2246070759 [TCP segment of a reassembled PDU]
+
+Frame 1577: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 16798, Ack: 23306, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1578 19.332773      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [ACK] Seq=18238 Ack=23306 Win=64128 Len=1440 TSval=393396114 TSecr=2246070759 [TCP segment of a reassembled PDU]
+
+Frame 1578: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 18238, Ack: 23306, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1579 19.332774      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [PSH, ACK] Seq=19678 Ack=23306 Win=64128 Len=1440 TSval=393396114 TSecr=2246070759 [TCP segment of a reassembled PDU]
+
+Frame 1579: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 19678, Ack: 23306, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1580 19.349425      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=8158 Win=64128 Len=0 TSval=2246072106 TSecr=393396111
+
+Frame 1580: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 8158, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1581 19.349449      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [ACK] Seq=21118 Ack=23306 Win=64128 Len=1440 TSval=393396131 TSecr=2246072106 [TCP segment of a reassembled PDU]
+
+Frame 1581: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 21118, Ack: 23306, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1582 19.349453      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [PSH, ACK] Seq=22558 Ack=23306 Win=64128 Len=1440 TSval=393396131 TSecr=2246072106 [TCP segment of a reassembled PDU]
+
+Frame 1582: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 22558, Ack: 23306, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1583 19.349590      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=9598 Win=64128 Len=0 TSval=2246072108 TSecr=393396112
+
+Frame 1583: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 9598, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1584 19.350429      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=11038 Win=64128 Len=0 TSval=2246072110 TSecr=393396112
+
+Frame 1584: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 11038, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1585 19.352412      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=12478 Win=64128 Len=0 TSval=2246072112 TSecr=393396112
+
+Frame 1585: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 12478, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1586 19.352429      192.168.1.23          46.105.132.156        TLSv1.3  1506   Application Data
+
+Frame 1586: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 23998, Ack: 23306, Len: 1440
+[12 Reassembled TCP Segments (16406 bytes): #1571(1440), #1572(1440), #1573(1440), #1574(1440), #1575(1440), #1576(1440), #1577(1440), #1578(1440), #1579(1440), #1581(1440), #1582(1440), #1586(566)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1587 19.352433      192.168.1.23          46.105.132.156        TLSv1.3  274    Application Data
+
+Frame 1587: 274 bytes on wire (2192 bits), 274 bytes captured (2192 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 25438, Ack: 23306, Len: 208
+[2 Reassembled TCP Segments (1082 bytes): #1586(874), #1587(208)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1588 19.354956      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=13918 Win=64128 Len=0 TSval=2246072114 TSecr=393396112
+
+Frame 1588: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 13918, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1589 19.357688      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=15358 Win=64128 Len=0 TSval=2246072116 TSecr=393396112
+
+Frame 1589: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 15358, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1590 19.358570      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=16798 Win=64128 Len=0 TSval=2246072118 TSecr=393396114
+
+Frame 1590: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 16798, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1591 19.361109      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=18238 Win=64128 Len=0 TSval=2246072121 TSecr=393396114
+
+Frame 1591: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 18238, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1592 19.363071      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=19678 Win=64128 Len=0 TSval=2246072123 TSecr=393396114
+
+Frame 1592: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 19678, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1593 19.365079      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=21118 Win=64128 Len=0 TSval=2246072124 TSecr=393396114
+
+Frame 1593: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 21118, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1594 19.367329      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=22558 Win=64128 Len=0 TSval=2246072127 TSecr=393396131
+
+Frame 1594: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 22558, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1595 19.369345      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=23998 Win=64128 Len=0 TSval=2246072129 TSecr=393396131
+
+Frame 1595: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 23998, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1596 19.371336      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=23306 Ack=25438 Win=64128 Len=0 TSval=2246072131 TSecr=393396134
+
+Frame 1596: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 25438, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1597 19.371789      46.105.132.156        192.168.1.23          TLSv1.3  114    Application Data
+
+Frame 1597: 114 bytes on wire (912 bits), 114 bytes captured (912 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23306, Ack: 25438, Len: 48
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1598 19.371807      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=25646 Ack=23354 Win=64128 Len=0 TSval=393396154 TSecr=2246072131
+
+Frame 1598: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 25646, Ack: 23354, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1599 19.372265      46.105.132.156        192.168.1.23          TLSv1.3  114    Application Data
+
+Frame 1599: 114 bytes on wire (912 bits), 114 bytes captured (912 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23354, Ack: 25646, Len: 48
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1600 19.372275      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=25646 Ack=23402 Win=64128 Len=0 TSval=393396154 TSecr=2246072131
+
+Frame 1600: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 25646, Ack: 23402, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1601 20.597542      46.105.132.156        192.168.1.23          TLSv1.3  698    Application Data
+
+Frame 1601: 698 bytes on wire (5584 bits), 698 bytes captured (5584 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 23402, Ack: 25646, Len: 632
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1602 20.597586      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=25646 Ack=24034 Win=64128 Len=0 TSval=393397379 TSecr=2246073354
+
+Frame 1602: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 25646, Ack: 24034, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1603 20.605282      192.168.1.23          46.105.132.156        TCP      1506   42586 → 443 [ACK] Seq=25646 Ack=24034 Win=64128 Len=1440 TSval=393397387 TSecr=2246073354 [TCP segment of a reassembled PDU]
+
+Frame 1603: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 25646, Ack: 24034, Len: 1440
+
+No.     Time           Source                Destination           Protocol Length Info
+   1604 20.605287      192.168.1.23          46.105.132.156        TLSv1.3  785    Application Data
+
+Frame 1604: 785 bytes on wire (6280 bits), 785 bytes captured (6280 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 27086, Ack: 24034, Len: 719
+[2 Reassembled TCP Segments (2159 bytes): #1603(1440), #1604(719)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1605 20.605993      192.168.1.23          46.105.132.156        TLSv1.3  942    Application Data, Application Data
+
+Frame 1605: 942 bytes on wire (7536 bits), 942 bytes captured (7536 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 27805, Ack: 24034, Len: 876
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1606 20.622319      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=24034 Ack=27805 Win=64128 Len=0 TSval=2246073382 TSecr=393397387
+
+Frame 1606: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 24034, Ack: 27805, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1607 20.623605      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=24034 Ack=28681 Win=64128 Len=0 TSval=2246073383 TSecr=393397388
+
+Frame 1607: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 24034, Ack: 28681, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1608 20.624090      46.105.132.156        192.168.1.23          TLSv1.3  114    Application Data
+
+Frame 1608: 114 bytes on wire (912 bits), 114 bytes captured (912 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 24034, Ack: 28681, Len: 48
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1609 20.667805      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=28681 Ack=24082 Win=64128 Len=0 TSval=393397450 TSecr=2246073383
+
+Frame 1609: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 28681, Ack: 24082, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1610 20.688149      46.105.132.156        192.168.1.23          TLSv1.3  1129   Application Data
+
+Frame 1610: 1129 bytes on wire (9032 bits), 1129 bytes captured (9032 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 24082, Ack: 28681, Len: 1063
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1611 20.688163      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=28681 Ack=25145 Win=64128 Len=0 TSval=393397470 TSecr=2246073445
+
+Frame 1611: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 28681, Ack: 25145, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1612 20.718708      46.105.132.156        192.168.1.23          TLSv1.3  1497   Application Data
+
+Frame 1612: 1497 bytes on wire (11976 bits), 1497 bytes captured (11976 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 25145, Ack: 28681, Len: 1431
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1613 20.718753      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=28681 Ack=26576 Win=64128 Len=0 TSval=393397500 TSecr=2246073477
+
+Frame 1613: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 28681, Ack: 26576, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1614 20.725198      192.168.1.23          46.105.132.156        TLSv1.3  250    Application Data
+
+Frame 1614: 250 bytes on wire (2000 bits), 250 bytes captured (2000 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 28681, Ack: 26576, Len: 184
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1615 20.786667      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=26576 Ack=28865 Win=64128 Len=0 TSval=2246073541 TSecr=393397507
+
+Frame 1615: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 26576, Ack: 28865, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1617 20.980529      192.168.1.23          46.105.132.156        TLSv1.3  186    Application Data
+
+Frame 1617: 186 bytes on wire (1488 bits), 186 bytes captured (1488 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 28865, Ack: 26576, Len: 120
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1618 20.998700      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=26576 Ack=28985 Win=64128 Len=0 TSval=2246073756 TSecr=393397762
+
+Frame 1618: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 26576, Ack: 28985, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1619 21.046463      46.105.132.156        192.168.1.23          TLSv1.3  1025   Application Data
+
+Frame 1619: 1025 bytes on wire (8200 bits), 1025 bytes captured (8200 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 26576, Ack: 28985, Len: 959
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1620 21.047546      192.168.1.23          46.105.132.156        TLSv1.3  101    Application Data
+
+Frame 1620: 101 bytes on wire (808 bits), 101 bytes captured (808 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 28985, Ack: 27535, Len: 35
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1621 21.062750      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [ACK] Seq=27535 Ack=29020 Win=64128 Len=0 TSval=2246073821 TSecr=393397829
+
+Frame 1621: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 27535, Ack: 29020, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1624 23.053161      46.105.132.156        192.168.1.23          TCP      2946   443 → 42586 [PSH, ACK] Seq=27535 Ack=29020 Win=64128 Len=2880 TSval=2246075809 TSecr=393397829 [TCP segment of a reassembled PDU]
+
+Frame 1624: 2946 bytes on wire (23568 bits), 2946 bytes captured (23568 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 27535, Ack: 29020, Len: 2880
+
+No.     Time           Source                Destination           Protocol Length Info
+   1625 23.053162      46.105.132.156        192.168.1.23          TCP      2946   443 → 42586 [PSH, ACK] Seq=30415 Ack=29020 Win=64128 Len=2880 TSval=2246075809 TSecr=393397829 [TCP segment of a reassembled PDU]
+
+Frame 1625: 2946 bytes on wire (23568 bits), 2946 bytes captured (23568 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 30415, Ack: 29020, Len: 2880
+
+No.     Time           Source                Destination           Protocol Length Info
+   1626 23.053162      46.105.132.156        192.168.1.23          TCP      2946   443 → 42586 [PSH, ACK] Seq=33295 Ack=29020 Win=64128 Len=2880 TSval=2246075809 TSecr=393397829 [TCP segment of a reassembled PDU]
+
+Frame 1626: 2946 bytes on wire (23568 bits), 2946 bytes captured (23568 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 33295, Ack: 29020, Len: 2880
+
+No.     Time           Source                Destination           Protocol Length Info
+   1627 23.053163      46.105.132.156        192.168.1.23          TCP      2946   443 → 42586 [PSH, ACK] Seq=36175 Ack=29020 Win=64128 Len=2880 TSval=2246075809 TSecr=393397829 [TCP segment of a reassembled PDU]
+
+Frame 1627: 2946 bytes on wire (23568 bits), 2946 bytes captured (23568 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 36175, Ack: 29020, Len: 2880
+
+No.     Time           Source                Destination           Protocol Length Info
+   1628 23.053182      46.105.132.156        192.168.1.23          TCP      2946   443 → 42586 [PSH, ACK] Seq=39055 Ack=29020 Win=64128 Len=2880 TSval=2246075809 TSecr=393397829 [TCP segment of a reassembled PDU]
+
+Frame 1628: 2946 bytes on wire (23568 bits), 2946 bytes captured (23568 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 39055, Ack: 29020, Len: 2880
+
+No.     Time           Source                Destination           Protocol Length Info
+   1629 23.053231      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=29020 Ack=41935 Win=64128 Len=0 TSval=393399835 TSecr=2246075809
+
+Frame 1629: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 29020, Ack: 41935, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1630 23.054016      46.105.132.156        192.168.1.23          TLSv1.3  954    Application Data
+
+Frame 1630: 954 bytes on wire (7632 bits), 954 bytes captured (7632 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 41935, Ack: 29020, Len: 888
+[6 Reassembled TCP Segments (15288 bytes): #1624(2880), #1625(2880), #1626(2880), #1627(2880), #1628(2880), #1630(888)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1631 23.095786      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [ACK] Seq=29020 Ack=42823 Win=64128 Len=0 TSval=393399878 TSecr=2246075809
+
+Frame 1631: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 29020, Ack: 42823, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1634 23.370822      192.168.1.23          46.105.132.156        TCP      66     42586 → 443 [FIN, ACK] Seq=29020 Ack=42823 Win=64128 Len=0 TSval=393400153 TSecr=2246075809
+
+Frame 1634: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 29020, Ack: 42823, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1646 23.386444      46.105.132.156        192.168.1.23          TLSv1.3  90     Application Data
+
+Frame 1646: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 42823, Ack: 29021, Len: 24
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1647 23.386478      192.168.1.23          46.105.132.156        TCP      54     42586 → 443 [RST] Seq=29021 Win=0 Len=0
+
+Frame 1647: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 29021, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1648 23.386900      46.105.132.156        192.168.1.23          TCP      66     443 → 42586 [FIN, ACK] Seq=42847 Ack=29021 Win=64128 Len=0 TSval=2246076144 TSecr=393400153
+
+Frame 1648: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: SagemcomBroa_35:92:33 (38:35:fb:35:92:33), Dst: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5)
+Internet Protocol Version 4, Src: 46.105.132.156, Dst: 192.168.1.23
+Transmission Control Protocol, Src Port: 443, Dst Port: 42586, Seq: 42847, Ack: 29021, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1649 23.386906      192.168.1.23          46.105.132.156        TCP      54     42586 → 443 [RST] Seq=29021 Win=0 Len=0
+
+Frame 1649: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: AzureWaveTec_50:78:a5 (b4:8c:9d:50:78:a5), Dst: SagemcomBroa_35:92:33 (38:35:fb:35:92:33)
+Internet Protocol Version 4, Src: 192.168.1.23, Dst: 46.105.132.156
+Transmission Control Protocol, Src Port: 42586, Dst Port: 443, Seq: 29021, Len: 0
